@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #CCCCFF;
+}
+a:hover{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+
+.navbar-brand{
+    transition: 0.4s;
+}
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px white;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+}
+.dropdown-menu li a{
+    text-shadow: 1px 1px 0px black;
+}
+.accordion-header {
+    margin-bottom: 0;
+}
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    text-align: left;
+    background-color: white;
+    border: 0;
+    border-radius: 0;
+}
+.accordion-body {
+    padding: 1rem 1.25rem;
+}
+/* .collapse:not(.show) {
+    display: none;
+}
+.collapsing{
+    overflow: hidden;
+    transition: .35s ease ;
+} */
+.carousel-inner h1{
+    text-shadow: 1px 1px #333;
+}
+.carousel-inner .carousel-caption{
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
+.card-body h2{
+    font-size: 40px;
+}
+code{
+    font-size: 18px !important;
+}
+.btnb{
+    position: relative;
+    left: 30px;
+}
+.btnb::before{
+position: absolute;
+content: "";
+border-width: 10px;
+border-style:solid;
+border-color: transparent transparent lightblue transparent;
+top: 20px;
+left: 13px;
+display: none;
+}
+.btnb::after{
+position: absolute;
+content: " ";
+height: 40px;
+width: 80px;
+background-color: lightblue;
+top: 40px;
+left: -15px;
+border-radius: 5px;
+display: none;
+}
+.btnb:active::before,
+.btn:hover::before{
+    display: block;
+
+}
+.btnb:hover::after{
+    content: "copy to clipboard";
+    display: block;
+}
+.btnb:active::after{
+    content: "copied";
+    display: block;
+    height: 25px;
+}
+.fixedimg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.fixedimg1{
+    background-image: url(../images/loop.jpg);
+}
+.fixedimg2{
+    background-image: url(../images/images.jpg);
+}
+.card-body h2{
+    font-size: 40px;
+}
+
+.icon{
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 17px;
+       
+}
+
